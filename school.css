@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  background: url("images/white\ 3.jpg") no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#main-header {
+  background-color: black;
+  color: white;
+}
+#navbar {
+  background-color: white;
+  color: black;
+}
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+#navbar li {
+  display: inline;
+}
+#navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
+}
+.school {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 30px;
+  border: 2px solid black;
+}
+.schedule {
+  padding: 20 px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding-left: 20px;
+  border: 2px solid black;
+}
+table {
+  width: 400px;
+  padding: 1px;
+  margin: 20px;
+}
+
+th {
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 2px solid #000;
+}
+#main-footer {
+  background-color: none;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+}
